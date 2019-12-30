@@ -84,8 +84,7 @@ const GithubState = props => {
         searchUsers,
         getUser,
         clearUsers,
-        getUserRepos,
-        alert: state.alert
+        getUserRepos
       }}
     >
       {props.children}
